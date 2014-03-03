@@ -194,8 +194,8 @@ def parse_args():
    parser.add_argument('-t', action='store_true', dest='tomusicdir',
          help='save album art to the music directory')
 
-   parser.set_defaults(size=3, output='cover.jpg', host='localhost', port=6600,
-         root='~/music/')
+   parser.set_defaults(size=4, output='cover.jpg', host='localhost', port=6600,
+         root='/media/samsung/music')
    args = parser.parse_args()
    return args
 
