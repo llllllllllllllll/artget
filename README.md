@@ -3,6 +3,8 @@ artget
 
 Fetch album arts from Last.fm, has MPD support.
 
+llllllllllll fork: better defaults, TODO: write a shell script
+
 Requirements
 ============
 * Tested on Python 2.7.6
